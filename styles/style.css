@@ -7,7 +7,16 @@ form {
 table {
     margin-left: auto;
     margin-right: auto;
+    border: thin solid black;
+    border-collapse: collapse;
 }
-#results h2, #results button{
+td {
+    border: thin solid black;
+    padding: .3em;
+}
+#results h2 {
     text-align: center;
+}
+button {
+    margin: 1em;
 }
