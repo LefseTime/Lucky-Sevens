@@ -8,6 +8,6 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-#results h2{
+#results h2, #results button{
     text-align: center;
 }

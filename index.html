@@ -21,9 +21,9 @@ Last modified: 11-8-18
 
     <form>
         <label for="starting-bet">Starting bet: $</label>
-        <input type="number" step="1" id="bet-input" name="starting-bet" value="0.00">
+        <input type="number" id="bet-input" name="starting-bet" value="0.00">
         <br />
-        <button onclick="play();" type="button">Play</button>
+        <button onclick="play();" type="button" id="play-button">Play</button>
     </form>
 
     <div id="results" style="display:none">
@@ -47,6 +47,9 @@ Last modified: 11-8-18
                 <td id="results-highest-rolls"></td>
             </tr>
         </table>
+        <div style="text-align: center;">
+            <button type="button" name="reload" id="reload" onclick="location.reload();">Play Again</button>
+        </div>
     </div>
 
 
