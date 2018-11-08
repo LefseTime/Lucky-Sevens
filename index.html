@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!-- Name: Sonia Funkenbusch
+Date created: 11-7-18
+Last modified: 11-8-18
+-->
 <html>
 
 <head>
@@ -17,13 +21,14 @@
 
     <form>
         <label for="starting-bet">Starting bet: $</label>
-        <input type="number" step="0.01" id="bet-input" name="starting-bet" value="0.00">
+        <input type="number" step="1" id="bet-input" name="starting-bet" value="0.00">
         <br />
-        <button type="submit" name="submit" id="submit">Play</button>
+        <button onclick="play();" type="button">Play</button>
     </form>
 
     <div id="results" style="display:none">
         <hr />
+        <h2>Results</h2>
         <table>
             <tr>
                 <td>Starting Bet</td>
